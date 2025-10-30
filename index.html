@@ -1,62 +1,77 @@
 <!DOCTYPE html>
-<html lang = "en">
-	<head>
-    <meta charset = "UTF-8 " />
-	<title> Card Component </title>
-	<style>
-		/* Smoother body look*/
-		body {
-       font-family: 'Poppins', sans-serif;
-       background: linear-gradient(to bottom, #e8f0fe, #ffffff);
-       color: #333;
-       text-align: center;
-        }
-		/*Card container */
-		.card{ background-color: #f9f9f9;  /* Light background */
-        padding: 20px;  /* Inner space */
-        border: 1px solid #ddd; /* #ddd = light grey in hex, subtle border*/
-        border-radius: 8px; /* Rounded corners */
-        width: 300px; /* Fixed width */
-        transition: 0.3s;  /* Smooth hover effect */
-        }
-        /* Title inside card */
-		h2{ font-size: 24px;  
-		margin: 0 0 10px 0; /* top right and left = 0, bottom = 10px of space below title */
-		color: #333;
-        }
-        /* Paragraph inside card */
-		p{font-size: 16px;
-		color: #555;
-		margin:  0;
-		}
-		/* Hover to change background and add shadow */
-		.card:hover{
-			background-color: #f1f1f1; 
-			box-shadow: 0 4px 12px rgb(0, 0, 0, 0.1);  /* Like a shadow */
-			}
-			</style>
-			</head>
-			<body>
-				
-				<!-- Card Component-->
-				<div class = "card">
-					<h2> Card Title </h2>
-					<p> This is a simple card with text. It has padding, a light background and a hover effect. </p>
-					</div>
-					
-					<a href="https://wa.me/27703946010" 
-                   style="display:inline-block;
-                   background-color:#25D366;
-                   color:white;
-                   padding:12px 20px;
-                   border-radius:8px;
-                   text-decoration:none;
-                   font-weight:bold;
-                   margin-top:20px;">
-                   💬 Message Me on WhatsApp
-                   </a>
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Private Tutor - Bernadus Mac Pietersen</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #e8f0fe, #ffffff);
+      color: #333;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1e3a8a;
+      color: white;
+      padding: 40px 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    header h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 18px;
+      margin: 0;
+    }
+    .card {
+      background-color: white;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 300px;
+      margin: 40px auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .card:hover {
+      background-color: #f9f9f9;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    }
+    h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 16px;
+      color: #555;
+      margin: 0;
+    }
+    a.whatsapp-btn {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bernadus Tutoring Services</h1>
+    <p>Helping learners excel in Math, Coding, and Exam Prep</p>
+  </header>  <div class="card">
+    <h2>Personal Tutor</h2>
+    <p>I offer one-on-one lessons for students who need extra help with mathematics and programming (C++, HTML, CSS). Affordable, patient, and flexible sessions.</p>
+    <a href="https://wa.me/27712345678" class="whatsapp-btn">💬 Message Me on WhatsApp</a>
+  </div>
 </body>
 </html>
-		
-			
